@@ -54,8 +54,6 @@ a {
   background-image: url(pics/accessibilityoverviewbanner.png);
 }
 
-img a:hover{
-
-  opacity: 0.8;
-  
-  }
+a:hover {
+  background-color: yellow;
+}
