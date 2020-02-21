@@ -54,3 +54,8 @@ a {
   background-image: url(pics/accessibilityoverviewbanner.png);
 }
 
+img a:hover{
+
+  opacity: 0.8;
+  
+  }
