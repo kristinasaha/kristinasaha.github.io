@@ -10,7 +10,7 @@ html,body {
 
 .heading {
   font-weight: bold;
-  font-size: 80%;
+  font-size: 2em;
   margin: 1em 0;
 }
 
@@ -29,10 +29,10 @@ a {
   color: black;
 }
 
-.offscreen {
+/*.offscreen {
   top: -1000px;
   font-size: 1px;
-}
+}*/
 
 .navigation a {
   outline: none;
