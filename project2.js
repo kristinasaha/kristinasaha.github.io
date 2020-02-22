@@ -26,7 +26,7 @@ $(document).ready(function() {
 
   // Form validation
   $("#signupbutton").click(function() {
-    if($("#firstname").val()=="" || $("#middleinitial").val()=="" || $("#lastname").val()=="") {
+    if($("#fn").val()=="" || $("#mi").val()=="" || $("#ln").val()=="") {
       $("#name").addClass("error");
 
       return;
@@ -34,7 +34,7 @@ $(document).ready(function() {
       $("#name").removeClass("error");
     }
 
-    if($("#email").val()=="") {
+    if($("#em").val()=="") {
       $("#email").addClass("error");
 
       return;
