@@ -12,8 +12,11 @@ $(document).ready(function() {
   });
 
 
-  // Play video
-  $("#videoplayer").mousedown(function() {
+  // Play video 
+  //
+  //THIS WAS REMOVED BECAUSE I ENDED UP EMBEDDING A VIDEO FROM YOUTUBE INSTEAD OF USING THE PLAY BUTTON! 
+  //
+  /*$("#videoplayer").mousedown(function() {
 
     if($($("#videoplayer").children()[0]).attr("src")=="pics/play.png") {
       $($("#videoplayer").children()[0]).attr("src","pics/pause.jpg");
@@ -22,7 +25,7 @@ $(document).ready(function() {
       $($("#videoplayer").children()[0]).attr("src","pics/play.png");
       $("#thevideo")[0].pause();
     }
-  });
+  });*/
 
   // Form validation
   $("#signupbutton").click(function() {
