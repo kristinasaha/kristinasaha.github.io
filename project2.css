@@ -54,6 +54,3 @@ a {
   background-image: url(pics/accessibilityoverviewbanner.png);
 }
 
-.no-hover{
-  pointer-events:none;
-}
