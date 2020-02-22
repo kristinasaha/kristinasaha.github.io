@@ -31,7 +31,8 @@ a {
 
 .offscreen {
   top: -1000px;
-  font-size: 1px;
+  font-size: 15px;
+  color: white;
 }
 
 .navigation a {
